@@ -281,3 +281,95 @@ p{
 .brand-col img:hover{
     filter: grayscale(0);
 }
+
+
+/* style footer section  */
+footer{
+    margin-top: 4rem;
+    background-color: #000;
+    height: 350px;
+}
+footer p{
+    text-align: center;
+    color: #ff5234;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    text-align: center;
+    margin: auto;
+    /* padding-left: 1.56rem;
+    padding-right: 1.56rem;    */
+    padding: 4rem;
+    
+}
+
+.footer-col{
+    width: 25%;
+    color: #fff;
+}
+
+.footer-col .apps-img{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-col h4{
+    font-weight: 500;
+    color: #ff5234;
+    text-transform: capitalize;
+
+}
+.footer-col ul{
+    margin-top: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.footer-col h3{
+    text-transform: capitalize;
+}
+.footer-col p{
+    color: #fff;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#fff;
+}
+
+.footer-col ul li a:hover{
+    color: #ff5234;
+}
+
+.footer-col img{
+    width: 50%;
+    cursor: pointer;
+    /* filter: grayscale(100%); */
+}
+
+.footer-col  .social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-col .social-links i{
+    font-size: 1.5rem;
+    color: #ff5234;
+}
+.footer-col .social-links a{
+    text-decoration: none;
+    transition: transform .5s;
+    
+}
+.footer-col .social-links a:hover{
+    transform: translateY(-5px);
+    
+}
