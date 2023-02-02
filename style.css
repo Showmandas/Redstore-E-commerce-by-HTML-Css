@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section style  */
+#logo{
+    width: 7.8rem;
+}
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: red;
+    padding: 0  1.5rem 0 1.5rem;
+}
+header{
+    /* padding-top: 2rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #555;
+}
