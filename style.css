@@ -206,3 +206,52 @@ p{
     font-size: 3rem;
     /* margin-bottom: 1.5rem; */
 }
+
+
+/* testimonial section style  */
+.testimonial-section{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.test-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;   
+    /* padding: 4rem; */
+}
+
+.test-col{
+    flex-basis: 25%;    
+    text-align: center !important;
+    transition: transform 0.5s;
+    text-align: left;
+    padding: 2rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.test-col:hover{
+    transform: translateY(-10px);
+}
+.test-col p{
+    color: #777;
+}
+.test-col h3{
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+.test-col img{
+    width: 20%;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+#qoute_left{
+    color: #ff5234;
+    font-size: 2rem;
+}
