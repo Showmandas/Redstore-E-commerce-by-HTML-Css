@@ -155,3 +155,54 @@ p{
     width: 100%;
     object-fit: cover;
 }
+
+
+/* offer section style  */
+.offer-section{
+    margin: 4rem  0 3rem 0;
+    background: radial-gradient(#fff,#ffd6d6);
+
+}
+
+.offer-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;   
+}
+
+.offer-col{
+    flex-basis: 50%;
+    text-align: center;
+    transition: transform 0.5s;
+    text-align: left;
+    padding: 2.5rem;
+}
+
+.offer-col img{
+    width: 100%;
+}
+
+.offer-col p{
+    width: 100%;
+}
+
+#offer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.offer-col h3{
+    color: #555;
+    text-transform: capitalize;
+    /* margin-bottom: 1.5rem; */
+}
+
+.offer-col h1{
+    font-size: 3rem;
+    /* margin-bottom: 1.5rem; */
+}
