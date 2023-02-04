@@ -373,3 +373,111 @@ footer p{
     transform: translateY(-5px);
     
 }
+
+
+/* responsive */
+/* for mobile  */
+
+@media screen and (max-width:576px){
+    
+    #logo{
+        width: 7.8rem;
+    }
+    .wrapper{
+        /* max-width: 1300px; */
+        width: 100%;
+        margin: 0 auto;
+        /* background-color: red; */
+        padding: 0  1.5rem 0 1.5rem;
+    }
+    .title{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 2.5rem;
+        color: rgba(0, 0, 0, 0.72);
+    
+    }
+    .header{
+        width: 100%;
+        background: radial-gradient(#fff,#ffd6d6);
+    }
+    header{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+nav ul{
+    flex-direction: column;
+}
+
+.cols{
+    flex-basis: 100%;
+    text-align: center;
+}
+.cols h1{
+    width: 100%;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ff5234;
+}
+#banner_img{
+    max-width: 100%;
+}
+
+#btn{
+    margin: 0 auto;
+}
+
+.category-row{
+    flex-direction: column;
+}
+.cat-col img{
+    width: 100%;
+}
+
+.product-row{
+    flex-direction: column;
+}
+
+.offer-row{
+    flex-direction: column-reverse;
+}
+.offer-col{
+    width: 100%;
+    text-align: center;
+}
+.test-row{
+    flex-direction: column;
+}
+.test-col{
+    flex-basis: 100%;
+}
+
+.brand-row{
+    flex-direction: column;
+}
+.brand-col img{
+    width: 100%;
+}
+
+footer{
+    height: auto;
+    
+}
+.footer-row{
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 3rem;
+}
+.footer-col{
+    text-align: center;
+    width: 100%;
+}
+
+footer p{
+    padding-bottom: 1.5rem;
+}
+
+}
+
