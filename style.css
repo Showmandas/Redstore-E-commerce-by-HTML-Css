@@ -481,3 +481,18 @@ footer p{
 
 }
 
+@media screen and (max-width:768px){
+    .test-col{
+        flex-basis: 50%;
+
+    }
+    footer{
+        height: auto;
+    }
+    footer p{
+        padding-bottom: 2rem;
+
+    }
+    
+}
+
